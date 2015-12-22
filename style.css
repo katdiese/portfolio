@@ -1,0 +1,114 @@
+* {
+  font-family:  Helvetica, Arial, sans-serif;
+  margin: 0; padding: 0; 
+}
+.row {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+[class*='col-'] {
+  float: left;
+}
+.col-half {
+  width: 50%;
+}
+.col-thirds {
+  width: 33.33%;
+}
+.col-fourths {
+  width: 25%;
+}
+.hero { 
+  background-image: url("../images/flying.jpeg");
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-positon: center !important;
+  color: black !important;
+  background-attachment: fixed;
+}
+.nameIntro {
+  width: 100%;
+  background-color: white;
+  opacity: 0.7;
+  font-size: 5em;
+  display: block;
+}
+.hero a {
+  background-color: red;
+  padding: .5em;
+  display: block;
+  opacity: 0.7;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.about {
+  padding: 6em;
+  display: block;
+}
+.about #secondHalf {
+  text-align: right;
+}
+.about>h2, .fav>h2 {
+  text-align: center;
+  margin: 3em;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  padding: .5em;
+}
+.favorites {
+  text-align: center;
+  margin: 3em;
+}
+.likes {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.likes img {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+.gif, .companies {
+  text-align: center;
+  margin: 5em;
+  border-radius: 10px;
+  background-color: #677384;
+  color: #EDFFEC;
+}
+.gif h3, .companies h3, .companies p, .gif p {
+  padding: 1em;
+}
+.gif a {
+  background-color: #34495e;
+  color: #EDFFEC;
+  padding: 0.5em;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.companies ul {
+  padding: 3em;
+}
+.colorChange {
+  background-color: #677384;
+  color: #EDFFEC;
+}
+.newBackground {
+  background-image: url("../images/goat.jpeg");
+}
+button {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 1em;
+  margin: 4em;
+}
