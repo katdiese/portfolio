@@ -20,7 +20,7 @@
   width: 25%;
 }
 .hero { 
-  background-image: url("../images/flying.jpeg");
+  background-image: url("images/flying.jpeg");
   height: 100vh;
   width: 100%;
   text-align: center;
