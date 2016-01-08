@@ -19,7 +19,7 @@
 .col-fourths {
   width: 25%;
 }
-.hero { 
+header { 
   background-image: url("images/flying.jpeg");
   height: 100vh;
   width: 100%;
@@ -36,7 +36,7 @@
   font-size: 5em;
   display: block;
 }
-.hero a {
+header a {
   background-color: red;
   padding: .5em;
   display: block;
